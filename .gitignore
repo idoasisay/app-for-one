@@ -1,0 +1,34 @@
+# deps
+node_modules/
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# build
+dist/
+build/
+*.tsbuildinfo
+
+# RN / native
+apps/mobile/ios/Pods/
+apps/mobile/ios/build/
+apps/mobile/android/.gradle/
+apps/mobile/android/app/build/
+*.keystore
+!debug.keystore
+
+# supabase local
+supabase/.branches/
+supabase/.temp/
+
+# db dumps (개인 데이터)
+*.dump
+*.sql.gz
+backups/
+
+# misc
+.DS_Store
+.idea/
+*.log
