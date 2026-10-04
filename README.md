@@ -10,3 +10,7 @@
 ## 상태
 
 🚧 기획 단계 (M0 이전)
+
+## License
+
+[MIT](LICENSE)
